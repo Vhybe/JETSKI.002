@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROJECT JETSKI AI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <div class="brand">PROJECT JETSKI</div>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#ai">AI</a></li>
+        <li><a href="#contact">+233202329914</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content container">
+      <h1>Build fast, modern websites with JETSKI</h1>
+      <p>Create a beautiful web presence with a clean layout, responsive design, and simple interactivity.</p>
+      <a class="btn" href="#features">Explore</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="features" class="section container">
+      <h2>Features</h2>
+      <div class="grid">
+        <article>
+          <h3>Responsive design</h3>
+          <p>Looks great on desktop, tablet, and mobile screens with fluid layout and accessible typography.</p>
+        </article>
+        <article>
+          <h3>Modern style</h3>
+          <p>Soft shadows, bold gradients, and clean spacing make this website feel polished and easy to use.</p>
+        </article>
+        <article>
+          <h3>Simple setup</h3>
+          <p>Quickly customize the layout, text, and colors to match your brand or project.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section alt-bg container">
+      <div class="about-grid">
+        <div>
+          <h2>About JETSKI</h2>
+          <p>JETSKI is a clean static website template meant for new web projects. Use it as a foundation for portfolios, launch pages, and personal brands.</p>
+          <p>The layout is intentionally minimal so you can customize it quickly and ship fast.</p>
+        </div>
+        <img src="images/photo_2026-08-02_19-35-41.jpg" alt="failed to load image" />
+      </div>
+    </section>
+
+    <section id="ai" class="section alt-bg container">
+      <div class="ai-panel">
+        <div class="section-heading">
+          <h2>AI Assistant</h2>
+          <p>Chat with the built-in AI assistant right here. Enter your OpenAI API key once to start generating answers instantly.</p>
+        </div>
+
+        <div class="ai-settings">
+          <label for="apiKey">OpenAI API key</label>
+          <input id="apiKey" type="password" placeholder="sk-..." aria-label="OpenAI API key" />
+          <button id="saveKey" type="button" class="btn secondary">Save key</button>
+          <button id="clearChat" type="button" class="btn ghost">Clear chat</button>
+        </div>
+
+        <div class="ai-chat" id="aiChat" aria-live="polite"></div>
+
+        <form id="aiForm" class="ai-form">
+          <input id="userPrompt" type="text" placeholder="Ask your AI assistant..." autocomplete="off" required />
+          <button class="btn" type="submit">Send</button>
+        </form>
+
+        <p class="ai-status" id="aiStatus">Your API key stays in this browser only. Use a local static server for best results.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>+233202329914</h2>
+      <p>Ready to go live? Reach out and get your site built today.</p>
+      <a class="btn" href="mailto:Reinasmith895@gmail.com">Reinasmith895@gmail.com</a>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© 2026 JETSKI. Built for your next website.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
